@@ -7,7 +7,7 @@ Public Class Create_New_Account
         "Persist Security Info=False;"
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using con As New OleDbConnection(conString)
-            Dim newuser = "INSERT INTO account_credentials(full_name, user_id, email_address, phone_number, user_password) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "', '" & TextBox3.Text & "', '" & TextBox4.Text & "', '" & TextBox5.Text & "')"
+            Dim newuser = "INSERT INTO account_credentials(full_name, user_name, email_address, phone_number, user_password) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "', '" & TextBox3.Text & "', '" & TextBox4.Text & "', '" & TextBox5.Text & "')"
 
             Using cmd As New OleDbCommand(newuser, con)
                 con.Open()
@@ -23,7 +23,5 @@ Public Class Create_New_Account
         End Using
     End Sub
 
-    Private Sub Create_New_Account_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class

@@ -88,27 +88,35 @@ C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.genruntimeconf
 C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\ref\FCO.dll
 C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Display_All_Users.resources
 C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Update_Account.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\FCO.exe
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\FCO.deps.json
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\FCO.runtimeconfig.json
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\FCO.dll
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\FCO.pdb
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\System.Data.OleDb.dll
-C:\Users\Trinty Pestin\Desktop\db\FCO\bin\Debug\net10.0-windows\runtimes\win\lib\net10.0\System.Data.OleDb.dll
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.vbproj.AssemblyReference.cache
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.Create_New_Account.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.Display_All_Users.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.Form1.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.Home_Page.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.Update_Account.resources
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.vbproj.GenerateResource.cache
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.AssemblyInfoInputs.cache
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.AssemblyInfo.vb
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.vbproj.CoreCompileInputs.cache
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.vbproj.Up2Date
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.dll
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\refint\FCO.dll
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.pdb
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\FCO.genruntimeconfig.cache
-C:\Users\Trinty Pestin\Desktop\db\FCO\obj\Debug\net10.0-windows\ref\FCO.dll
+C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Calculate_Salary.resources
+C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Review_Salary.resources
+C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Delete_User.resources
+C:\Users\admin\Documents\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Resources.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\FCO.exe
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\FCO.deps.json
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\FCO.runtimeconfig.json
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\FCO.dll
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\FCO.pdb
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\System.Data.OleDb.dll
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\bin\Debug\net10.0-windows\runtimes\win\lib\net10.0\System.Data.OleDb.dll
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.vbproj.AssemblyReference.cache
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Calculate_Salary.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Create_New_Account.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Delete_User.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Display_All_Users.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Form1.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Home_Page.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Resources.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Review_Salary.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.Update_Account.resources
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.vbproj.GenerateResource.cache
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.AssemblyInfoInputs.cache
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.AssemblyInfo.vb
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.vbproj.CoreCompileInputs.cache
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.vbproj.Up2Date
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.dll
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\refint\FCO.dll
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.pdb
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\FCO.genruntimeconfig.cache
+C:\Users\Trinty Pestin\Desktop\DB_FCO\FCO\obj\Debug\net10.0-windows\ref\FCO.dll

@@ -36,8 +36,8 @@ Partial Class Form1
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = Color.White
-        Label3.Location = New Point(60, 159)
+        Label3.ForeColor = SystemColors.ControlLightLight
+        Label3.Location = New Point(60, 124)
         Label3.Name = "Label3"
         Label3.Size = New Size(148, 41)
         Label3.TabIndex = 2
@@ -47,8 +47,8 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = Color.White
-        Label4.Location = New Point(60, 219)
+        Label4.ForeColor = SystemColors.ControlLightLight
+        Label4.Location = New Point(60, 184)
         Label4.Name = "Label4"
         Label4.Size = New Size(183, 41)
         Label4.TabIndex = 3
@@ -56,31 +56,34 @@ Partial Class Form1
         ' 
         ' TextBox1
         ' 
+        TextBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox1.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox1.BorderStyle = BorderStyle.FixedSingle
         TextBox1.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(280, 165)
+        TextBox1.ForeColor = Color.White
+        TextBox1.Location = New Point(280, 130)
         TextBox1.Name = "TextBox1"
-        TextBox1.PlaceholderText = "********"
         TextBox1.Size = New Size(330, 35)
         TextBox1.TabIndex = 4
         ' 
         ' TextBox2
         ' 
+        TextBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox2.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox2.BorderStyle = BorderStyle.FixedSingle
         TextBox2.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(280, 225)
+        TextBox2.ForeColor = Color.White
+        TextBox2.Location = New Point(280, 190)
         TextBox2.Name = "TextBox2"
         TextBox2.PasswordChar = "*"c
-        TextBox2.PlaceholderText = "**********"
         TextBox2.Size = New Size(330, 35)
         TextBox2.TabIndex = 5
         ' 
         ' Button1
         ' 
+        Button1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Button1.Font = New Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(280, 280)
+        Button1.Location = New Point(280, 245)
         Button1.Name = "Button1"
         Button1.Size = New Size(330, 50)
         Button1.TabIndex = 6
@@ -89,10 +92,11 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.BackColor = Color.FromArgb(CByte(225), CByte(6), CByte(0))
+        Button2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Button2.BackColor = Color.Red
         Button2.Font = New Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = SystemColors.ButtonFace
-        Button2.Location = New Point(280, 336)
+        Button2.Location = New Point(280, 301)
         Button2.Name = "Button2"
         Button2.Size = New Size(330, 50)
         Button2.TabIndex = 7
@@ -101,13 +105,13 @@ Partial Class Form1
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.BackColor = Color.Transparent
-        PictureBox1.Image = My.Resources.Resources.Screenshot_2026_10_25_113742
-        PictureBox1.Location = New Point(234, 12)
+        PictureBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        PictureBox1.Image = My.Resources.Resources._868403053_1650702099782619_6299859084371940794_n
+        PictureBox1.Location = New Point(293, 12)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(218, 103)
+        PictureBox1.Size = New Size(175, 83)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox1.TabIndex = 10
+        PictureBox1.TabIndex = 8
         PictureBox1.TabStop = False
         ' 
         ' Form1
@@ -115,7 +119,7 @@ Partial Class Form1
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        ClientSize = New Size(671, 542)
+        ClientSize = New Size(736, 450)
         Controls.Add(PictureBox1)
         Controls.Add(Button2)
         Controls.Add(Button1)
