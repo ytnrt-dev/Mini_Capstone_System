@@ -43,4 +43,51 @@
         UpdateForm.Show()
 
     End Sub
+
+    Private Sub CalculateSalaryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculateSalaryToolStripMenuItem.Click
+
+        Panel1.Controls.Clear()
+
+        Dim SalaryForm As New Calculate_Salary()
+
+        SalaryForm.TopLevel = False
+        SalaryForm.FormBorderStyle = FormBorderStyle.None
+        SalaryForm.Dock = DockStyle.Fill
+
+        Panel1.Controls.Add(SalaryForm)
+        SalaryForm.Show()
+
+    End Sub
+
+    Private Sub ReviewSalaryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReviewSalaryToolStripMenuItem.Click
+
+        Panel1.Controls.Clear()
+
+        Dim ReviewForm As New Review_Salary()
+
+        ReviewForm.TopLevel = False
+        ReviewForm.FormBorderStyle = FormBorderStyle.None
+        ReviewForm.Dock = DockStyle.Fill
+
+        Panel1.Controls.Add(ReviewForm)
+        ReviewForm.Show()
+
+    End Sub
+
+    Private Sub DeleteUserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteUserToolStripMenuItem.Click
+
+        Panel1.Controls.Clear()
+
+        Dim DeleteForm As New Delete_User()
+
+
+        DeleteForm.TopLevel = False
+        DeleteForm.FormBorderStyle = FormBorderStyle.None
+        DeleteForm.Dock = DockStyle.Fill
+
+        Panel1.Controls.Add(DeleteForm)
+        DeleteForm.Show()
+    End Sub
+
+
 End Class

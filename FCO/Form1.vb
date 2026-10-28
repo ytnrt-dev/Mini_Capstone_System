@@ -26,7 +26,7 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Using con As New OleDbConnection(conString)
-            Dim newuser = "INSERT INTO account_credentials(user_, user_password) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "')"
+            Dim newuser = "INSERT INTO account_credentials(user_name, user_password) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "')"
 
             Using cmd As New OleDbCommand(newuser, con)
                 con.Open()
@@ -61,9 +61,5 @@ Public Class Form1
 
             End Using
         End Using
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
     End Sub
 End Class

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trinty Pestin\\Desktop\\db\\FCO\\FCO.vbproj": {}
+    "C:\\Users\\Trinty Pestin\\Desktop\\DB_FCO\\FCO\\FCO.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Trinty Pestin\\Desktop\\db\\FCO\\FCO.vbproj": {
+    "C:\\Users\\Trinty Pestin\\Desktop\\DB_FCO\\FCO\\FCO.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trinty Pestin\\Desktop\\db\\FCO\\FCO.vbproj",
+        "projectUniqueName": "C:\\Users\\Trinty Pestin\\Desktop\\DB_FCO\\FCO\\FCO.vbproj",
         "projectName": "FCO",
-        "projectPath": "C:\\Users\\Trinty Pestin\\Desktop\\db\\FCO\\FCO.vbproj",
+        "projectPath": "C:\\Users\\Trinty Pestin\\Desktop\\DB_FCO\\FCO\\FCO.vbproj",
         "packagesPath": "C:\\Users\\Trinty Pestin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trinty Pestin\\Desktop\\db\\FCO\\obj\\",
+        "outputPath": "C:\\Users\\Trinty Pestin\\Desktop\\DB_FCO\\FCO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Trinty Pestin\\AppData\\Roaming\\NuGet\\NuGet.Config",

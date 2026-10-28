@@ -44,11 +44,14 @@ Partial Class Update_Account
         ' 
         ' TextBox1
         ' 
+        TextBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox1.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox1.BorderStyle = BorderStyle.FixedSingle
         TextBox1.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox1.ForeColor = Color.White
         TextBox1.Location = New Point(246, 155)
         TextBox1.Name = "TextBox1"
+        TextBox1.PlaceholderText = "**********"
         TextBox1.Size = New Size(520, 35)
         TextBox1.TabIndex = 8
         ' 
@@ -56,6 +59,7 @@ Partial Class Update_Account
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = SystemColors.ControlLightLight
         Label3.Location = New Point(32, 148)
         Label3.Name = "Label3"
         Label3.Size = New Size(148, 41)
@@ -73,9 +77,11 @@ Partial Class Update_Account
         ' 
         ' TextBox2
         ' 
+        TextBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox2.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox2.BorderStyle = BorderStyle.FixedSingle
         TextBox2.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox2.ForeColor = Color.White
         TextBox2.Location = New Point(325, 419)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(441, 35)
@@ -85,6 +91,7 @@ Partial Class Update_Account
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.ForeColor = SystemColors.ControlLightLight
         Label4.Location = New Point(41, 408)
         Label4.Name = "Label4"
         Label4.Size = New Size(188, 41)
@@ -93,9 +100,11 @@ Partial Class Update_Account
         ' 
         ' TextBox3
         ' 
+        TextBox3.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox3.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox3.BorderStyle = BorderStyle.FixedSingle
         TextBox3.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox3.ForeColor = Color.White
         TextBox3.Location = New Point(325, 474)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(441, 35)
@@ -105,6 +114,7 @@ Partial Class Update_Account
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = SystemColors.ControlLightLight
         Label5.Location = New Point(41, 468)
         Label5.Name = "Label5"
         Label5.Size = New Size(148, 41)
@@ -115,6 +125,7 @@ Partial Class Update_Account
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.ForeColor = SystemColors.ControlLightLight
         Label6.Location = New Point(41, 528)
         Label6.Name = "Label6"
         Label6.Size = New Size(257, 41)
@@ -125,6 +136,7 @@ Partial Class Update_Account
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.ForeColor = SystemColors.ControlLightLight
         Label7.Location = New Point(41, 588)
         Label7.Name = "Label7"
         Label7.Size = New Size(271, 41)
@@ -135,6 +147,7 @@ Partial Class Update_Account
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Tahoma", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.ForeColor = SystemColors.ControlLightLight
         Label8.Location = New Point(41, 648)
         Label8.Name = "Label8"
         Label8.Size = New Size(183, 41)
@@ -143,9 +156,11 @@ Partial Class Update_Account
         ' 
         ' TextBox4
         ' 
+        TextBox4.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox4.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox4.BorderStyle = BorderStyle.FixedSingle
         TextBox4.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox4.ForeColor = Color.White
         TextBox4.Location = New Point(325, 534)
         TextBox4.Name = "TextBox4"
         TextBox4.Size = New Size(441, 35)
@@ -153,9 +168,11 @@ Partial Class Update_Account
         ' 
         ' TextBox5
         ' 
+        TextBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox5.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox5.BorderStyle = BorderStyle.FixedSingle
         TextBox5.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox5.ForeColor = Color.White
         TextBox5.Location = New Point(325, 594)
         TextBox5.Name = "TextBox5"
         TextBox5.Size = New Size(441, 35)
@@ -163,9 +180,11 @@ Partial Class Update_Account
         ' 
         ' TextBox6
         ' 
+        TextBox6.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         TextBox6.BackColor = Color.FromArgb(CByte(43), CByte(43), CByte(43))
         TextBox6.BorderStyle = BorderStyle.FixedSingle
         TextBox6.Font = New Font("Tahoma", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TextBox6.ForeColor = Color.White
         TextBox6.Location = New Point(325, 654)
         TextBox6.Name = "TextBox6"
         TextBox6.Size = New Size(441, 35)
@@ -173,9 +192,9 @@ Partial Class Update_Account
         ' 
         ' Button1
         ' 
-        Button1.BackColor = SystemColors.ActiveCaptionText
+        Button1.BackColor = Color.Red
         Button1.Font = New Font("Tahoma", 13.8F, FontStyle.Bold)
-        Button1.ForeColor = SystemColors.ButtonHighlight
+        Button1.ForeColor = SystemColors.ButtonFace
         Button1.Location = New Point(416, 711)
         Button1.Name = "Button1"
         Button1.Size = New Size(350, 50)
@@ -186,7 +205,6 @@ Partial Class Update_Account
         ' Button2
         ' 
         Button2.Font = New Font("Tahoma", 13.8F, FontStyle.Bold)
-        Button2.ForeColor = Color.Black
         Button2.Location = New Point(41, 711)
         Button2.Name = "Button2"
         Button2.Size = New Size(350, 50)
@@ -196,10 +214,10 @@ Partial Class Update_Account
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Image = My.Resources.Resources.Screenshot_2026_10_25_113742
-        PictureBox1.Location = New Point(325, 12)
+        PictureBox1.Image = My.Resources.Resources._868403053_1650702099782619_6299859084371940794_n
+        PictureBox1.Location = New Point(315, 23)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(231, 109)
+        PictureBox1.Size = New Size(208, 97)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 24
         PictureBox1.TabStop = False
@@ -210,7 +228,7 @@ Partial Class Update_Account
         AutoScaleMode = AutoScaleMode.Font
         AutoValidate = AutoValidate.EnableAllowFocusChange
         BackColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        ClientSize = New Size(847, 799)
+        ClientSize = New Size(847, 782)
         Controls.Add(PictureBox1)
         Controls.Add(Button2)
         Controls.Add(Button1)
@@ -227,7 +245,6 @@ Partial Class Update_Account
         Controls.Add(DataGridView1)
         Controls.Add(TextBox1)
         Controls.Add(Label3)
-        ForeColor = Color.White
         Name = "Update_Account"
         Text = "Update_Account"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()

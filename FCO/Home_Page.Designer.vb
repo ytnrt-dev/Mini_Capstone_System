@@ -28,6 +28,10 @@ Partial Class Home_Page
         ViewToolStripMenuItem = New ToolStripMenuItem()
         ViewUsersToolStripMenuItem = New ToolStripMenuItem()
         UpdareAccountToolStripMenuItem = New ToolStripMenuItem()
+        DeleteUserToolStripMenuItem = New ToolStripMenuItem()
+        PayrollToolStripMenuItem = New ToolStripMenuItem()
+        CalculateSalaryToolStripMenuItem = New ToolStripMenuItem()
+        ReviewSalaryToolStripMenuItem = New ToolStripMenuItem()
         Panel1 = New Panel()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
@@ -35,7 +39,7 @@ Partial Class Home_Page
         ' MenuStrip1
         ' 
         MenuStrip1.ImageScalingSize = New Size(20, 20)
-        MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, ViewToolStripMenuItem})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {FileToolStripMenuItem, ViewToolStripMenuItem, PayrollToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Size = New Size(800, 28)
@@ -44,10 +48,11 @@ Partial Class Home_Page
         ' 
         ' FileToolStripMenuItem
         ' 
+        FileToolStripMenuItem.BackColor = Color.White
         FileToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CreateNewAccountToolStripMenuItem})
         FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        FileToolStripMenuItem.Size = New Size(46, 24)
-        FileToolStripMenuItem.Text = "File"
+        FileToolStripMenuItem.Size = New Size(81, 24)
+        FileToolStripMenuItem.Text = " Account"
         ' 
         ' CreateNewAccountToolStripMenuItem
         ' 
@@ -57,7 +62,7 @@ Partial Class Home_Page
         ' 
         ' ViewToolStripMenuItem
         ' 
-        ViewToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewUsersToolStripMenuItem, UpdareAccountToolStripMenuItem})
+        ViewToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewUsersToolStripMenuItem, UpdareAccountToolStripMenuItem, DeleteUserToolStripMenuItem})
         ViewToolStripMenuItem.Name = "ViewToolStripMenuItem"
         ViewToolStripMenuItem.Size = New Size(55, 24)
         ViewToolStripMenuItem.Text = "View"
@@ -65,17 +70,43 @@ Partial Class Home_Page
         ' ViewUsersToolStripMenuItem
         ' 
         ViewUsersToolStripMenuItem.Name = "ViewUsersToolStripMenuItem"
-        ViewUsersToolStripMenuItem.Size = New Size(199, 26)
+        ViewUsersToolStripMenuItem.Size = New Size(224, 26)
         ViewUsersToolStripMenuItem.Text = "View Users"
         ' 
         ' UpdareAccountToolStripMenuItem
         ' 
         UpdareAccountToolStripMenuItem.Name = "UpdareAccountToolStripMenuItem"
-        UpdareAccountToolStripMenuItem.Size = New Size(199, 26)
-        UpdareAccountToolStripMenuItem.Text = "Updare Account"
+        UpdareAccountToolStripMenuItem.Size = New Size(224, 26)
+        UpdareAccountToolStripMenuItem.Text = "Update Account"
+        ' 
+        ' DeleteUserToolStripMenuItem
+        ' 
+        DeleteUserToolStripMenuItem.Name = "DeleteUserToolStripMenuItem"
+        DeleteUserToolStripMenuItem.Size = New Size(224, 26)
+        DeleteUserToolStripMenuItem.Text = "Delete User"
+        ' 
+        ' PayrollToolStripMenuItem
+        ' 
+        PayrollToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CalculateSalaryToolStripMenuItem, ReviewSalaryToolStripMenuItem})
+        PayrollToolStripMenuItem.Name = "PayrollToolStripMenuItem"
+        PayrollToolStripMenuItem.Size = New Size(67, 24)
+        PayrollToolStripMenuItem.Text = "Payroll"
+        ' 
+        ' CalculateSalaryToolStripMenuItem
+        ' 
+        CalculateSalaryToolStripMenuItem.Name = "CalculateSalaryToolStripMenuItem"
+        CalculateSalaryToolStripMenuItem.Size = New Size(224, 26)
+        CalculateSalaryToolStripMenuItem.Text = "Calculate Salary"
+        ' 
+        ' ReviewSalaryToolStripMenuItem
+        ' 
+        ReviewSalaryToolStripMenuItem.Name = "ReviewSalaryToolStripMenuItem"
+        ReviewSalaryToolStripMenuItem.Size = New Size(224, 26)
+        ReviewSalaryToolStripMenuItem.Text = "Review Salary"
         ' 
         ' Panel1
         ' 
+        Panel1.BackColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
         Panel1.Location = New Point(12, 31)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(776, 831)
@@ -104,4 +135,8 @@ Partial Class Home_Page
     Friend WithEvents ViewUsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel1 As Panel
     Friend WithEvents UpdareAccountToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PayrollToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculateSalaryToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ReviewSalaryToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DeleteUserToolStripMenuItem As ToolStripMenuItem
 End Class
